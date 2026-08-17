@@ -1,0 +1,37 @@
+# Jupyter / Python
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Local environments
+.venv/
+venv/
+env/
+
+# Large model and training files
+checkpoints/
+logs/
+outputs/
+generated/
+*.ckpt
+*.pt
+*.pth
+*.safetensors
+*.bin
+*.log
+
+# Dataset files kept outside the public repository
+raw_datasets/
+preprocessed_datasets/
+final_datasets/
+*.fasta
+*.fa
+
+# Archives
+*.zip
+*.rar
+*.7z
+
+# OS files
+.DS_Store
+Thumbs.db
